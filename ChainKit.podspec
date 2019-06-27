@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
 # spec.watchos.deployment_target = "2.0"
 # spec.tvos.deployment_target = "9.0"
 
-  spec.source = { :git => 'git@gitlab.51shaoxi.com:wooseng/ChainKit.git', :tag => spec.version }
+  spec.source = { :git => 'http://gitlab.51shaoxi.com:8080/wooseng/ChainKit.git', :tag => spec.version }
   spec.source_files  = "Sources/*.swift"
 # spec.public_header_files = "Classes/**/*.h"
 
