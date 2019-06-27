@@ -10,8 +10,9 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ChainKit"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of ChainKit."
+  spec.summary      = "链式编程框架，稍息内部自用"
   spec.description  = <<-DESC
+	这是一个链式编程框架，稍息内部自用
                         DESC
 
   spec.homepage     = "http://gitlab.51shaoxi.com/wooseng/ChainKit"
