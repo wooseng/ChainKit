@@ -19,6 +19,8 @@
 		942F197E22C361920084B6F8 /* ChainProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942F197B22C361920084B6F8 /* ChainProtocol.swift */; };
 		942F197F22C361920084B6F8 /* Chain_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942F197C22C361920084B6F8 /* Chain_UIView.swift */; };
 		942F198022C361920084B6F8 /* Chain_UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942F197D22C361920084B6F8 /* Chain_UIControl.swift */; };
+		948349C122C5AD5000CA5B19 /* ChainKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 948349BF22C5AD4F00CA5B19 /* ChainKit.podspec */; };
+		948349C222C5AD5000CA5B19 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 948349C022C5AD4F00CA5B19 /* README.md */; };
 		EA6275A9239C257DBF9A75AD /* Pods_ChainKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6AF0D7691514522B2B609A /* Pods_ChainKitDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,8 @@
 		942F197B22C361920084B6F8 /* ChainProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainProtocol.swift; sourceTree = "<group>"; };
 		942F197C22C361920084B6F8 /* Chain_UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain_UIView.swift; sourceTree = "<group>"; };
 		942F197D22C361920084B6F8 /* Chain_UIControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain_UIControl.swift; sourceTree = "<group>"; };
+		948349BF22C5AD4F00CA5B19 /* ChainKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ChainKit.podspec; path = ../ChainKit.podspec; sourceTree = "<group>"; };
+		948349C022C5AD4F00CA5B19 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E9C2A9817953380A6215D401 /* Pods-ChainKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainKit.release.xcconfig"; path = "Target Support Files/Pods-ChainKit/Pods-ChainKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +105,8 @@
 		942F194A22C360690084B6F8 = {
 			isa = PBXGroup;
 			children = (
+				948349BF22C5AD4F00CA5B19 /* ChainKit.podspec */,
+				948349C022C5AD4F00CA5B19 /* README.md */,
 				942F195522C360690084B6F8 /* ChainKitDemo */,
 				942F196E22C3609F0084B6F8 /* ChainKit */,
 				942F195422C360690084B6F8 /* Products */,
@@ -261,7 +267,9 @@
 			files = (
 				942F196122C360690084B6F8 /* LaunchScreen.storyboard in Resources */,
 				942F195E22C360690084B6F8 /* Assets.xcassets in Resources */,
+				948349C222C5AD5000CA5B19 /* README.md in Resources */,
 				942F195C22C360690084B6F8 /* Main.storyboard in Resources */,
+				948349C122C5AD5000CA5B19 /* ChainKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
