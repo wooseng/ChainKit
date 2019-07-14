@@ -10,12 +10,12 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ChainKit"
   spec.version      = "0.0.1"
-  spec.summary      = "链式编程框架，稍息内部自用"
+  spec.summary      = "链式编程框架"
   spec.description  = <<-DESC
-	这是一个链式编程框架，稍息内部自用
+	这是一个使用Swift开发的链式编程框架
                         DESC
 
-  spec.homepage     = "http://gitlab.51shaoxi.com/wooseng/ChainKit"
+  spec.homepage     = "https://github.com/wooseng/ChainKit"
 
   spec.license      = "LICENSE"
   spec.author       = { "wooseng" => "zhanbaocheng@vip.qq.com" }
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
 # spec.watchos.deployment_target = "2.0"
 # spec.tvos.deployment_target = "9.0"
 
-  spec.source = { :git => 'http://gitlab.51shaoxi.com:8080/wooseng/ChainKit.git', :tag => spec.version }
+  spec.source = { :git => 'https://github.com/wooseng/ChainKit.git', :tag => spec.version }
   spec.source_files  = "Sources/*.swift"
 # spec.public_header_files = "Classes/**/*.h"
 
