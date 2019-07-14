@@ -1,6 +1,6 @@
 # ChainKit
 
-一个使用Swift开发的链式编程框架，在稍息内部项目中使用。
+一个使用Swift开发的链式编程框架。
 
 ### 配置要求：
 **Xcode 10.2.1 +**<br />
@@ -13,7 +13,7 @@
 在 `Podfile` 文件中添加以下内容
 
 ```
-pod 'ChainKit', :git => 'http://gitlab.51shaoxi.com:8080/wooseng/ChainKit.git'
+pod 'ChainKit', :git => 'https://github.com/wooseng/ChainKit.git'
 ```
 
 然后使用 `pod install` 命令进行安装
