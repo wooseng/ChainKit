@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ChainKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "链式编程框架"
   spec.description  = <<-DESC
 	这是一个使用Swift开发的链式编程框架
